@@ -26,6 +26,11 @@ p {
     color: white;
 }
 
+.margin {
+    margin-bottom: 45px;    
+}
+
+
 #header {
     background-color: rgba(0, 0, 0, .5);
     padding: 20px 0 10px;
