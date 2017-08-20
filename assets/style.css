@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/background-crows.jpg);
+}
+
+h1 {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 32px;
+    color: crimson;
+}
+
+h2 {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 24px;
+    color: crimson;    
+}
+
+h3 {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 18px;
+    color: crimson;    
+}
+
+p {
+    font-family: Helvetica, sans-serif; 
+    font-size: 16px;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px 0 10px;
+}
+
+#nav-title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-item {
+    float: left;
+    margin: 0 15px;
+    padding: 10px;
+    text-align: center;
+}
