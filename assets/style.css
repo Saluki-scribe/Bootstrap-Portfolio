@@ -23,11 +23,13 @@ h3 {
 p {
     font-family: Helvetica, sans-serif; 
     font-size: 16px;
+    color: white;
 }
 
 #header {
     background-color: rgba(0, 0, 0, .5);
     padding: 20px 0 10px;
+    margin-bottom: 10%;
 }
 
 #nav-title {
@@ -39,5 +41,42 @@ p {
     float: left;
     margin: 0 15px;
     padding: 10px;
+    text-align: center;
+}
+
+/*Side Bar*/
+#side-bar {
+  background-color: rgba(0, 0, 0, .7); 
+  padding: 2%;
+}
+
+#side-bar-text {
+    text-align: center;
+}
+
+#side-bar img {
+    margin: 2%;
+}
+
+/*ABOUT Page*/
+
+#main-body {
+    background-color: rgba(0, 0, 0, .0);
+}
+
+#content-section {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 2%;
+}
+
+/*Footer*/
+
+#footer {
+    background-color:  rgba(0, 0, 0, .7);
+    margin-top: 10%;
+    padding: 1% 0;
+}
+
+#copyright {
     text-align: center;
 }
