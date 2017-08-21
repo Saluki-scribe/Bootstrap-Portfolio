@@ -134,6 +134,12 @@ img {
     text-decoration: none;
 }
 
+/*Contact*/
+
+label {
+    color: white;
+}
+
 /*Footer*/
 
 #footer {
