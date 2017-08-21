@@ -15,24 +15,24 @@
 
 <!--HEADER Section Start-->
 
-    <div class="container-fluid" id="header">
-        <div class="row justify-content-between">
-            <div class="col-sm-3"> <!--BREAKPOINT-->
-                <h1 id="nav-title">Tara Nelson</h1>
-            </div>
-            <div class="col-sm-4"> <!--BREAKPOINT-->
-                <a href="index.html"><h3 class="nav-item">About</h3></a>
-                <a href="portfolio.html"><h3 class="nav-item">Portfolio</h3></a>
-                <a href="contact.html"><h3 class="nav-item">Contact</h3></a>
-            </div>
-        </div>
-    </div>
+<nav class="navbar navbar-toggleable-sm" style="background-color: rgba(0, 0, 0, .7)" id="navbar">
+
+    <div class="container-fluid"> 
+        <h1 class="navbar-brand">Tara Nelson</h1>
+        <div class="navbar-nav flex-column flex-sm-row">
+            <a class="nav-item nav-link active" href="index.html"><h3>About</h3></a>
+            <a class="nav-item nav-link" href="portfolio.html"><h3>Portfolio</h3></a>
+            <a class="nav-item nav-link" href="contact.html"><h3>Contact</h3></a>
+        </div> <!--Navbar-nav-->
+     </div> <!--Container-->  
+
+</nav>
 
 <!--MAIN Section Start-->
 
     <div class="container-fluid">
-        <div class="row"> <!--Big Daddy Row-->
-            <div class="col-sm-6" id="content-section"> <!--Content and Picture Column-->
+        <div class="row" > <!--Big Daddy Row-->
+            <div class="col-sm-6 col-lg-6" id="content-section"> <!--Content and Picture Column-->
                 <h1>About Me</h1>
 
                 <div class="row"> 
@@ -40,11 +40,11 @@
                     <div class="col-10">
                         <img src="assets/images/me_straight_hair.jpg" class="img-responsive" style="width: 75%" alt="Tara Nelson">
                         <p>
-                            Hey there! I'm Tara, and my favorite place is right inside of my own head. 
+                            Hey there! I'm Tara, and the most interesting place I've ever been is inside my own head (although Japan, London, and New Orleans were fascinating too). 
                             <br><br>
                             From there, I've gone on hundreds of adventures, from attending Hogwarts School of Witchcraft and Wizardry to murderering everyone at my high school prom. Some adventures... have been more fun than others.
                             <br><br>
-                            In addition to reading a lot of books, I'm an aspiring author, avid gamer, and a digital artist. If it's fantasy or horror (and sometimes sci-fi) and there's a good story and characters, I'm in.
+                            In addition to reading a lot of books, I'm an aspiring author, avid gamer, and an artist. If it's fantasy or horror (and sometimes sci-fi) and there's a good story and characters, I'm in.
                             <br><br>
                             To make money, I freelance as a web copywriter and inbound marketing consultant, but writing so much for other people has left me with little writing energy for my fiction.
                             <br><br>
@@ -55,9 +55,9 @@
 
             </div> <!--End Content and Picture Column-->
 
-            <div class="col-sm-5"> <!--Side Bar Row-->
+            <div class="col-1"></div>
+            <div class="col-sm-5 col-lg-4"> <!--Side Bar-->
                 <div class="row">
-                    <div class="col-1"></div>
                     <div class="col-7" id="side-bar">
                     <h2 id="side-bar-text">Follow Me!</h2>
                     <a href="https://github.com/Saluki-scribe"><img src="assets/images/icon_github.png" class="img-responsive" alt="github icon"></a>
@@ -65,7 +65,7 @@
                     <a href="https://stackexchange.com/users/11101908/tara-nelson"><img src="assets/images/icon_stackoverflow.png" class="img-responsive" alt="stackoverflow icon"></a>
                     </div>
                 </div>
-            </div> <!--End Side Bar Row-->
+            </div> <!--End Side Bar-->
 
         </div>
     </div> <!--End Main Section Container-->
