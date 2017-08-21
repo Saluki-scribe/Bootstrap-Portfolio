@@ -145,6 +145,10 @@ label {
     color: white;
 }
 
+#content-section {
+    margin-bottom: 20px;
+}
+
 /*Footer*/
 
 #footer {
@@ -159,3 +163,14 @@ label {
 
 /*Media Queries*/
 
+@media screen and (max-width: 960px) {
+    .col {
+
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .col {
+
+    }
+}
